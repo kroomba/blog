@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error 404 - dull roots & spring rain</title>
+  <style>
+    body {
+      background-color: #000066;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #ffff00;
+      text-align: center;
+      margin: 50px;
+      line-height: 1.6;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 36px;
+      background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-decoration: blink;
+      animation: glitch 1s infinite alternate;
+    }
+
+    @keyframes glitch {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-5px);
+      }
+    }
+
+    p {
+      font-size: 14px;
+      margin: 5px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .date {
+      font-size: 12px;
+      color: #ffff00;
+      text-decoration: underline;
+    }
+
+    .blog-post {
+      border: 5px double #ff0000;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #ccffff;
+      width: 70%;
+      margin-left: 15%;
+      text-align: left;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #ff0000;
+    }
+
+    .click-to-add-text {
+      font-size: 18px;
+      color: #00ffff;
+      cursor: crosshair;
+      text-decoration: underline;
+      position: relative;
+      z-index: 1;
+    }
+
+    .navbar {
+      background-color: #0000cc;
+      padding: 10px;
+      margin: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    .navbar a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 5px;
+      margin: 5px;
+      text-transform: uppercase;
+      animation: textGlitch 3s infinite alternate;
+    }
+
+    .sidebar {
+      background-color: #000066;
+      width: 15%;
+      padding: 10px;
+      float: left;
+      margin-top: 20px;
+      margin-left: 2%;
+      position: absolute;
+      top: 120px;
+      z-index: 2;
+      transform: rotate(2deg);
+    }
+
+    .widget {
+      background-color: #000099;
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 2px solid #cc00cc;
+      animation: textGlitch 3s infinite alternate;
+    }
+
+    .broken-link {
+      color: #ff0000;
+      text-decoration: line-through;
+      animation: glitch 1s infinite alternate, textGlitch 3s infinite alternate;
+    }
+
+    .broken-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      animation: glitch 1s infinite alternate;
+      position: relative;
+      z-index: 1;
+    }
+
+    .broken-button {
+      background-color: #ff0000;
+      color: #000;
+      padding: 5px;
+      border: 1px solid #cc00cc;
+      cursor: not-allowed;
+      animation: glitch 1s infinite alternate, textGlitch 3s infinite alternate;
+    }
+
+    .footer {
+      background-color: #660066;
+      color: #ffffff;
+      padding: 10px;
+      clear: both;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+
+    /* Intentional Glitches */
+    .glitch-clip {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    }
+
+    .glitch-transform {
+      transform: rotate(5deg);
+    }
+
+    .glitch-opacity {
+      opacity: 0.7;
+    }
+
+    /* Text Glitch Animation */
+    @keyframes textGlitch {
+      0% {
+        opacity: 1;
+      }
+      25% {
+        opacity: 0.8;
+      }
+      50% {
+        opacity: 0.6;
+      }
+      75% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar glitch-clip">
+    <a href="#" class="broken-link">Home</a>
+    <a href="#" class="broken-link">Archives</a>
+    <a href="#" class="broken-link">About</a>
+    <a href="#" class="broken-link">Contact</a>
+  </div>
+
+  <div class="sidebar glitch-transform">
+    <div class="widget glitch-opacity">Categories</div>
+    <div class="widget glitch-opacity">Popular Posts</div>
+    <div class="widget glitch-opacity">Subscribe</div>
+  </div>
+
+  <h1>dull roots & spring rain</h1>
+  <p class="broken-image glitch-opacity glitch-transform"><img src="broken_image.png" alt="headerpng"></p>
+
+  <div class="blog-post">
+    <p class="date">april 27 2023</p>
+    <p>Today was amazing. I went to the [april] awards not expecting to win anything, and instead, we managed to win in every category we participated in. I even won people’s choice. It was so fun.</p>
+    <p>However, after the event she approached me...</p>
+    <p>We hadn’t talked in a while ever since, you know.</p>
+    <p>But as I was walking away, she called after me. Someone nearby told me, “Hey, I think some girl is calling you.”</p>
+    <p>She ran up to me and spread her arms, gesturing in amazement.</p>
+    <p>It was weird. She was proud of me. Like I was her friend. Up until this point, I was nervous to consider ourselves as such.</p>
+    <p>It’s kind of weird. She had worked her whole life for this. Her entire thing was “film.” She wanted to be a director. She wanted to make movies. She wanted to go to film school. She was the broadcast girl.</p>
+    <p>And yet...</p>
+    <p>Here I was, with no prior experience, no prior ambition, nothing. Just a random person who thought it would be cool to try and enter into this film competition.</p>
+    <p>And I won. And she didn’t.</p>
+    <p>I was now the film guy. She was the broadcast girl, and nothing more.</p>
+    <p>Part of me felt bad. But she seemed so excited for me.</p>
+    <p>She kept mentioning teaming up, doing films together. Later, she pressured me to join the video production team at the school, to help make the BHS broadcast.</p>
+    <p>I don't really know what to make of this. I don't know what we are. I really don't know who she is anymore. She sounded like she...</p>
+    <div class="quote glitch-opacity">I don't know where this came from, but I can't get her voice out of my head.</div>
+    <p>Her soft voice,</p>
+    <p>Saying over and over</p>
+    <p class="quote glitch-clip glitch-opacity">Help help help help help help help help</p>
+  </div>
+
+  <div class="click-to-add-text glitch-opacity glitch-transform">click to add text</div>
+  <button class="broken-button glitch-opacity glitch-clip glitch-transform">more</button>
+
+  <div class="footer glitch-opacity glitch-clip glitch-transform">© 2023 dull roots & spring rain Blog</div>
+
+  <script>
+    // JavaScript for intentional glitches
+    setInterval(function() {
+      document.querySelector('.navbar').classList.toggle('glitch-clip');
+      document.querySelector('.sidebar').classList.toggle('glitch-transform');
+      document.querySelector('.widget').classList.toggle('glitch-opacity');
+      document.querySelector('.broken-link').classList.toggle('glitch-clip');
+      document.querySelector('.broken-image').classList.toggle('glitch-opacity');
+      document.querySelector('.broken-button').classList.toggle('glitch-opacity');
+      document.querySelector('.footer').classList.toggle('glitch-opacity');
+    }, 1000);
+
+    // JavaScript for random text glitch
+    setInterval(function() {
+      const glitchElements = document.querySelectorAll('.navbar a, .widget, .broken-link, .broken-button');
+      glitchElements.forEach(element => {
+        const originalText = element.innerText;
+        const glitchText = Math.random() < 0.5 ? 'HELP' : 'APRIL';
+        element.innerText = glitchText;
+        setTimeout(() => {
+          element.innerText = originalText;
+        }, 100);
+      });
+    }, 5000);
+  </script>
+
+</body>
+</html>
